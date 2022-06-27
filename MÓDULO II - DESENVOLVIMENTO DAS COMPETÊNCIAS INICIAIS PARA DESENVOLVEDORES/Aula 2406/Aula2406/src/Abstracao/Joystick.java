@@ -5,6 +5,14 @@ public class Joystick {
 	String cor;
 	int porcentagemBateria;
 
+	// Metodo especial - construtor
+	public Joystick(String modelo, String cor, int porcentagemBateria) {
+		super();
+		this.modelo = modelo;
+		this.cor = cor;
+		this.porcentagemBateria = porcentagemBateria;
+	}
+
 	public void visualizarInfoJoystick() {
 		System.out.println("Modelo " + modelo);
 		System.out.println("Cor " + cor);

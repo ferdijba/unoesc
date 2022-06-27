@@ -17,6 +17,10 @@ public class Principal {
 		
 		js.visualizarInfoJoystick();
 		js2.visualizarInfoJoystick();
+		
+		
+		
+		
 		//Scanner ler = new Scanner(System.in);
 
 		/*System.out.println("Digite o modelo");
